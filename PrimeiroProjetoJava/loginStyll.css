@@ -1,0 +1,28 @@
+body {
+    background-color: #000;
+
+}
+
+body.bg_animes {
+    background-image:url(./assents/imagem/back.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 50px;
+    background: linear-gradient(
+        180deg, rgba(0,0,0,0.69) 0%,
+        rgba(0,0,0,0)100%
+    );
+}
+
+header img {
+    width: 150px;
+}
+
+div.caixa_login {
+    background: rgba(0,0,0,0.7);
+    padding: 30%;
+    margin-top: 0px;
+}

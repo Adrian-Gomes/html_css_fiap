@@ -1,0 +1,160 @@
+
+/* GERAIS */
+body {
+    background-color: #000;
+}
+header {
+    padding: 50px;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.69) 0%,
+        rgba(0,0,0,0) 100%
+    );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+header img {
+    width: 150px
+}
+/*PRINCIPAL*/
+header.row {
+    display: flex;
+
+}
+
+div > ul {
+    display: flex;
+}
+.menu_lista {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.menu_lista li a {
+    margin-left: 15px;
+    color:#fff 
+}
+.text-white {
+    margin-left: 70px;
+    color:rgb(0, 0, 0)
+}
+.recom{
+    font-size: 76px;
+    margin-left: 70px;
+    color:#000
+}
+.titulo {
+    font-size: 36px;
+    margin-left: 70px;
+    color:#fff
+}
+.sinopse {
+    font-size: 20px;
+    margin-left: 70px;
+    text-align: left;
+    max-width: 30%;
+    color:#fff
+}
+
+div#recomendacao {
+    height: 700px;
+    background-image: url(./assents/imagem/demommm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+div#recomendacao::after {
+    content: '';
+    width: 100%;
+    height: 350;
+    display: block;
+    background: linear-gradient(url(recom.png));
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    top: calc(700px - 350px);
+}
+
+div#recomendacao_info {
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+}
+div#recomendacao_info h1 {
+    margin-bottom: 20px;
+}
+
+div#conteudo_principal {
+    margin-top: 700px;
+}
+
+ul.anime_lista {
+    overflow-x: scroll;
+    list-style: none;
+    white-space: nowrap;
+    padding: 15px 0;
+    display: block;
+}
+/*
+.anime_lista::-webkit-scrollbar {
+    display: none;
+}*/
+
+.anime {
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.anime:first-child{
+    margin-left: 70px;
+}
+.conteudo_info p {
+    color: #7e7b7b;
+    font-size: 12px;
+}
+.conteudo_info p text {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.img-fluid {
+    width: 123px; 
+    height: 169px;
+    margin: auto;
+}
+
+section {
+    position: relative;
+}
+
+
+div.divider{
+    width: 50%;
+    height: 2px;
+    margin: 28px auto;
+    background-color: #d9d9d9;
+}
+.links {
+    line-height: -1px;
+    margin-left: 15px;
+}
+.sites {
+    line-height: normal;
+    color:#fff
+
+}
+.contatos {
+    margin-top: 10px;
+    line-height: normal;
+    color:#fff
+}
